@@ -9,7 +9,7 @@ public class Rotation : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         Transform myTransform = GetComponent<Transform>();
         myTransform.Rotate(new Vector3(0, yawDegreesPerSecond, 0));

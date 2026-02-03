@@ -167,6 +167,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Extents.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_CarveOnlyStationary
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663939570068810653, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Mass
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 5471272157095041001, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_Name
       value: Dynamic box (28)
@@ -228,6 +244,22 @@ PrefabInstance:
     - target: {fileID: 2747601707435158551, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Extents.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_CarveOnlyStationary
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663939570068810653, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Mass
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5471272157095041001, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_Name
@@ -946,6 +978,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Extents.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_CarveOnlyStationary
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663939570068810653, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Mass
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 5471272157095041001, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_Name
       value: Dynamic box (25)
@@ -1413,6 +1461,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Extents.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_CarveOnlyStationary
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663939570068810653, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Mass
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 5471272157095041001, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_Name
       value: Dynamic box (2)
@@ -1805,6 +1869,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Extents.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_CarveOnlyStationary
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663939570068810653, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Mass
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 5471272157095041001, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_Name
       value: Dynamic box (6)
@@ -1861,6 +1941,22 @@ PrefabInstance:
     - target: {fileID: 2747601707435158551, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Extents.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_CarveOnlyStationary
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663939570068810653, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Mass
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5471272157095041001, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_Name
@@ -2036,6 +2132,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Extents.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_CarveOnlyStationary
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663939570068810653, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Mass
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 5471272157095041001, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_Name
       value: Dynamic box (22)
@@ -2092,6 +2204,22 @@ PrefabInstance:
     - target: {fileID: 2747601707435158551, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Extents.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_CarveOnlyStationary
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663939570068810653, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Mass
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5471272157095041001, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_Name
@@ -2298,6 +2426,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Extents.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_CarveOnlyStationary
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663939570068810653, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Mass
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 5471272157095041001, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_Name
       value: Dynamic box (15)
@@ -2423,6 +2567,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Extents.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_CarveOnlyStationary
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663939570068810653, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Mass
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 5471272157095041001, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_Name
       value: Dynamic box (26)
@@ -2521,6 +2681,18 @@ PrefabInstance:
     - target: {fileID: 2747601707435158551, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Extents.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_CarveOnlyStationary
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4663939570068810653, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_Mass
@@ -2891,6 +3063,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Extents.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_CarveOnlyStationary
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663939570068810653, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Mass
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 5471272157095041001, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_Name
       value: Dynamic box (21)
@@ -3233,6 +3421,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Extents.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_CarveOnlyStationary
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663939570068810653, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Mass
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 5471272157095041001, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_Name
       value: Dynamic box (7)
@@ -3289,6 +3493,18 @@ PrefabInstance:
     - target: {fileID: 2747601707435158551, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Extents.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_CarveOnlyStationary
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4663939570068810653, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_Mass
@@ -3736,6 +3952,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Extents.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_CarveOnlyStationary
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663939570068810653, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Mass
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 5471272157095041001, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_Name
       value: Dynamic box (18)
@@ -3797,6 +4029,22 @@ PrefabInstance:
     - target: {fileID: 2747601707435158551, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Extents.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_CarveOnlyStationary
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663939570068810653, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Mass
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5471272157095041001, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_Name
@@ -4062,6 +4310,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Extents.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_CarveOnlyStationary
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4663939570068810653, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_Mass
       value: 0.1
@@ -4122,6 +4382,22 @@ PrefabInstance:
     - target: {fileID: 2747601707435158551, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Extents.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_CarveOnlyStationary
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663939570068810653, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Mass
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5471272157095041001, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_Name
@@ -4253,6 +4529,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Extents.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_CarveOnlyStationary
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4663939570068810653, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_Mass
       value: 0.1
@@ -4313,6 +4601,22 @@ PrefabInstance:
     - target: {fileID: 2747601707435158551, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Extents.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_CarveOnlyStationary
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663939570068810653, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Mass
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5471272157095041001, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_Name
@@ -5235,6 +5539,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Extents.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_CarveOnlyStationary
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663939570068810653, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Mass
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 5471272157095041001, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_Name
       value: Dynamic box (20)
@@ -6009,6 +6329,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Extents.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_CarveOnlyStationary
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663939570068810653, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Mass
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 5471272157095041001, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_Name
       value: Dynamic box (19)
@@ -6135,6 +6471,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Extents.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_CarveOnlyStationary
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4663939570068810653, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_Mass
       value: 0.1
@@ -6196,6 +6544,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Extents.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_CarveOnlyStationary
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4663939570068810653, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_Mass
       value: 0.1
@@ -6256,6 +6616,22 @@ PrefabInstance:
     - target: {fileID: 2747601707435158551, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Extents.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_CarveOnlyStationary
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663939570068810653, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Mass
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5471272157095041001, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_Name
@@ -6472,6 +6848,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Extents.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_CarveOnlyStationary
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663939570068810653, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Mass
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 5471272157095041001, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_Name
       value: Dynamic box (1)
@@ -6617,6 +7009,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Extents.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_CarveOnlyStationary
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663939570068810653, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Mass
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 5471272157095041001, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_Name
       value: Dynamic box (14)
@@ -6678,6 +7086,22 @@ PrefabInstance:
     - target: {fileID: 2747601707435158551, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Extents.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_CarveOnlyStationary
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663939570068810653, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Mass
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5471272157095041001, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_Name
@@ -6799,6 +7223,22 @@ PrefabInstance:
     - target: {fileID: 2747601707435158551, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Extents.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493270981929331039, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_CarveOnlyStationary
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663939570068810653, guid: b6b311aa5b8889242a708477545010da, type: 3}
+      propertyPath: m_Mass
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5471272157095041001, guid: b6b311aa5b8889242a708477545010da, type: 3}
       propertyPath: m_Name

@@ -11,15 +11,13 @@ public class PlayerController : MonoBehaviour
     private float movementX;
     private float movementY;
     public float speed = 0; 
-    public TextMeshProUGUI countText;
+        public TextMeshProUGUI countText;
 
     void Start() {
         count = 0;
         rb = GetComponent <Rigidbody>(); 
         SetCountText();
         winTextObject.SetActive(false);
-
-
     }
     private void FixedUpdate() {
         Vector3 movement = new Vector3 (movementX, 0.0f, movementY);
@@ -28,8 +26,7 @@ public class PlayerController : MonoBehaviour
         {
             SceneManager.LoadScene( SceneManager.GetActiveScene().name );
         }
-
-    }
+   }
     
     void OnTriggerEnter(Collider other){ 
         if (other.gameObject.CompareTag("PickUp")) {
@@ -54,7 +51,6 @@ public class PlayerController : MonoBehaviour
 
        }
     }
-
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Enemy"))
@@ -62,8 +58,6 @@ public class PlayerController : MonoBehaviour
         Destroy(gameObject);     
         winTextObject.gameObject.SetActive(true);
         winTextObject.GetComponent<TextMeshProUGUI>().text = "You Lose!" + '\n' + "Restarting...";
-    
-        }
+       }
     }
-
 }
