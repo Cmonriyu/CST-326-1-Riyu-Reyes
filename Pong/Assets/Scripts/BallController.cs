@@ -57,16 +57,16 @@ public class BallController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("LeftGoal"))
         {
-            Debug.Log("Left Hit");
             speed = 1.0f;
             RightScoreCount += 1;
+            Debug.Log("Red Scores, Score is B:" + LeftScoreCount + " R:" + RightScoreCount);
             SetCountText();
             myTransform.position = new Vector3(5f, 0.5f, 0f);
             rb.linearVelocity = new Vector3(-9f * speed ,0f , UnityEngine.Random.Range(-1f,1f)* 7f * speed);
         }
        if (collision.gameObject.CompareTag("RightGoal"))
         {
-            Debug.Log("Right Hit");
+            Debug.Log("Blue Scores, Score is B:" + LeftScoreCount + " R:" + RightScoreCount);
             speed = 1.0f;
             LeftScoreCount += 1;
             SetCountText();
@@ -110,16 +110,24 @@ public class BallController : MonoBehaviour
     void SetCountText() 
     {
        LeftScore.text = LeftScoreCount.ToString();
-       if (LeftScoreCount >= 9)
+       if (LeftScoreCount > 10)
        {
             Destroy(gameObject);
             BlueWin.SetActive(true);
+            Debug.Log("Game Over, Blue Wins, Score is B:" + LeftScoreCount + " R:" + RightScoreCount);
+            LeftScoreCount = 0;
+            RightScoreCount = 0;
+            SetCountText();
        }
        RightScore.text = RightScoreCount.ToString();
-       if (RightScoreCount >= 9)
+       if (RightScoreCount > 10)
        {    
             Destroy(gameObject);
             RedWin.SetActive(true);
+            Debug.Log("Game Over, Red Wins, Score is B:" + LeftScoreCount + " R:" + RightScoreCount);
+            LeftScoreCount = 0;
+            RightScoreCount = 0;
+            SetCountText();
        }    
     }
 }
