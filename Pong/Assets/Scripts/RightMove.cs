@@ -1,4 +1,4 @@
-using System.Linq;
+
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -7,7 +7,6 @@ public class RightMove : MonoBehaviour
     public float speed = 10f;
     public Rigidbody rb;
     public Vector3 movement;
-    public float paddleSpeed  = 1f;
     public Transform myTransform;
     void Start()
     {

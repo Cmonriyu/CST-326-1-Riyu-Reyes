@@ -1,4 +1,5 @@
 
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using TMPro;
@@ -14,6 +15,8 @@ public class BallController : MonoBehaviour
     public float speed = 1.000f;
     public TextMeshProUGUI LeftScore;
     public TextMeshProUGUI RightScore;
+    public GameObject RedWin;
+    public GameObject BlueWin;
     public int LeftScoreCount;
     public int RightScoreCount;
     public bool startside;
@@ -21,9 +24,10 @@ public class BallController : MonoBehaviour
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
-    {
-
-        rb = GetComponent<Rigidbody>();
+    {   
+        BlueWin.SetActive(false);
+        RedWin.SetActive(false);
+        rb = GetComponent<Rigidbody>(); 
         LeftScoreCount = 0;
         RightScoreCount = 0;
         SetCountText();
@@ -36,7 +40,7 @@ public class BallController : MonoBehaviour
         {
             movementX = 1f;
         }
-        movementZ = UnityEngine.Random.Range(-.7f,.7f);
+        movementZ = UnityEngine.Random.Range(-5f,5f);
         rb.linearVelocity = new Vector3(movementX * 9f * speed ,0f , movementZ * 7f * speed);
     }
 
@@ -86,7 +90,7 @@ public class BallController : MonoBehaviour
             float factor = (point.point.z - paddleTransform.position.z) / (paddleHeight / 2);
             Vector3 currentVelocity = rb.linearVelocity;
             currentVelocity.x = -currentVelocity.x;
-            currentVelocity.z = factor * 5f;
+            currentVelocity.z = factor * 3f;
             rb.linearVelocity = currentVelocity.normalized * 9f * speed;
         }
     }
@@ -106,14 +110,16 @@ public class BallController : MonoBehaviour
     void SetCountText() 
     {
        LeftScore.text = LeftScoreCount.ToString();
-       if (LeftScoreCount >= 10)
+       if (LeftScoreCount >= 9)
        {
-
+            Destroy(gameObject);
+            BlueWin.SetActive(true);
        }
        RightScore.text = RightScoreCount.ToString();
-       if (RightScoreCount >= 10)
-       {
-
+       if (RightScoreCount >= 9)
+       {    
+            Destroy(gameObject);
+            RedWin.SetActive(true);
        }    
     }
 }
