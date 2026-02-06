@@ -1,7 +1,4 @@
 
-using System.Collections.Generic;
-using System.Security.Cryptography;
-using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using TMPro;
@@ -39,27 +36,17 @@ public class BallController : MonoBehaviour
         {
             movementX = 1f;
         }
-
-        movementZ = UnityEngine.Random.Range(-1f,1f);
-        rb.linearVelocity = new Vector3(movementX * 8f * speed ,0f , movementZ * 8f * speed);
-        
+        movementZ = UnityEngine.Random.Range(-.7f,.7f);
+        rb.linearVelocity = new Vector3(movementX * 9f * speed ,0f , movementZ * 7f * speed);
     }
 
     
     void FixedUpdate()
     {
-        speed += .00001f;
-        if (Keyboard.current.fKey.isPressed)
-             rb.MovePosition(rb.position - Vector3.right * 3f * Time.deltaTime * speed);
-
-        if (Keyboard.current.hKey.isPressed)
-            rb.MovePosition(rb.position - Vector3.left * 3f * Time.deltaTime * speed);
-
-        if (Keyboard.current.tKey.isPressed)
-             rb.MovePosition(rb.position - Vector3.back * 3f * Time.deltaTime * speed);
-
-        if (Keyboard.current.gKey.isPressed)
-            rb.MovePosition(rb.position - Vector3.forward * 3f * Time.deltaTime * speed);
+        if (speed <= 2.5f)
+        {
+            speed += .0005f;
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -71,10 +58,7 @@ public class BallController : MonoBehaviour
             RightScoreCount += 1;
             SetCountText();
             myTransform.position = new Vector3(5f, 0.5f, 0f);
-            rb.linearVelocity = new Vector3(-12f * speed ,0f , UnityEngine.Random.Range(-1f,1f)* 12f * speed);
-
-            
-
+            rb.linearVelocity = new Vector3(-9f * speed ,0f , UnityEngine.Random.Range(-1f,1f)* 7f * speed);
         }
        if (collision.gameObject.CompareTag("RightGoal"))
         {
@@ -83,27 +67,41 @@ public class BallController : MonoBehaviour
             LeftScoreCount += 1;
             SetCountText();
             myTransform.position = new Vector3(-5f, 0.5f, 0f);
-            rb.linearVelocity = new Vector3(12f * speed ,0f , UnityEngine.Random.Range(-1f,1f)* 12f * speed);
+            rb.linearVelocity = new Vector3(9f * speed ,0f , UnityEngine.Random.Range(-1f,1f)* 7f * speed);
+            
        }
 
        if (collision.gameObject.CompareTag("Wall"))
         {
             Vector3 currentVelocity = rb.linearVelocity;
             currentVelocity.z = -currentVelocity.z;
-            rb.linearVelocity = currentVelocity;
+            rb.linearVelocity = currentVelocity.normalized * 9f * speed ;
         }
 
         if (collision.gameObject.CompareTag("Paddle"))
         {
+            ContactPoint point = collision.contacts[0];
+            Transform paddleTransform = collision.transform;
+            float paddleHeight = paddleTransform.localScale.z;
+            float factor = (point.point.z - paddleTransform.position.z) / (paddleHeight / 2);
             Vector3 currentVelocity = rb.linearVelocity;
-            if (speed <= 1.02)
-            {
-                currentVelocity *= speed;
-            }
             currentVelocity.x = -currentVelocity.x;
-            rb.linearVelocity = currentVelocity;
+            currentVelocity.z = factor * 5f;
+            rb.linearVelocity = currentVelocity.normalized * 9f * speed;
         }
     }
+
+    // void OnTriggerEnter(Collider collision)
+    // {
+    //     if (collision.gameObject.CompareTag("Paddle"))
+    //     {
+    //         Vector3 currentVelocity = rb.linearVelocity;
+    //         currentVelocity.x = -currentVelocity.x;
+    //         rb.linearVelocity = currentVelocity.normalized * 9f * speed;
+    //     }
+    // }
+
+
 
     void SetCountText() 
     {
