@@ -6,8 +6,6 @@ public class BallSpawner : MonoBehaviour
 
     void Start()
     {
-    
-        Instantiate(ballPrefab);
 
     }
 
@@ -16,7 +14,7 @@ public class BallSpawner : MonoBehaviour
         if (Keyboard.current.spaceKey.isPressed)
         {
             Transform myTransform = GetComponent<Transform>();
-            Instantiate(ballPrefab, myTransform.position, Quaternion.identity);
+            Instantiate(ballPrefab, new Vector3(UnityEngine.Random.Range(-1.45f,.65f),.8f,0f), Quaternion.identity);
         }
     }
 }
