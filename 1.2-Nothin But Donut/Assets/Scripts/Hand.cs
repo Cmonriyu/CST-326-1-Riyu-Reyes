@@ -8,13 +8,13 @@ public class Hand : MonoBehaviour
     void Start()
     {
         rb = ball.gameObject.AddComponent<Rigidbody>();
-        rb.isKinematic = true;
-        // rb.useGravity = false;
+        // rb.isKinematic = true;
+        rb.useGravity = true;
     }
 
     public void Release()
     {
-        rb.isKinematic = false;
+        // rb.isKinematic = false;
         rb.useGravity = true;
 
     }

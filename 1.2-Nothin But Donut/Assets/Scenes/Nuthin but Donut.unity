@@ -782,7 +782,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c96991cf3021164eb6b60be0d6f599a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  impulseStrength: 13.8
+  impulseStrength: 8
 --- !u!54 &650436574
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1429,7 +1429,6 @@ GameObject:
   - component: {fileID: 1474501493}
   - component: {fileID: 1474501492}
   - component: {fileID: 1474501496}
-  - component: {fileID: 1474501497}
   m_Layer: 0
   m_Name: Trampoline 1
   m_TagString: Trampoline
@@ -1542,34 +1541,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c96991cf3021164eb6b60be0d6f599a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  impulseStrength: 14.4
---- !u!54 &1474501497
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1474501491}
-  serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  impulseStrength: 8
 --- !u!1 &1525583392
 GameObject:
   m_ObjectHideFlags: 0
@@ -1789,7 +1761,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 44.1
+  field of view: 65.6
   orthographic: 0
   orthographic size: 12.31
   m_Depth: 0
