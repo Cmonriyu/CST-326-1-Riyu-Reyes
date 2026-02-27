@@ -8,6 +8,10 @@ TagManager:
   - Dirt
   - Stone
   - Question
+  - Goal
+  - Enemy
+  - Coin
+  - Pipe
   layers:
   - Default
   - TransparentFX

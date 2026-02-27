@@ -461,6 +461,7 @@ MonoBehaviour:
   strongPrefab: {fileID: 7018443723416328118, guid: ecd7a3a9554934d4697026ace3363e72, type: 3}
   castlePrefab: {fileID: 1485621086187161413, guid: fbae096da728397488894be6f5bc4631, type: 3}
   goalPrefab: {fileID: 1485621086187161413, guid: f57c73f374e00904ebc6dee9b856b4be, type: 3}
+  enemyPrefab: {fileID: 7018443723416328118, guid: 8e82b7ae037e96a4499ae4409905348b, type: 3}
 --- !u!4 &610288774
 Transform:
   m_ObjectHideFlags: 0
@@ -748,7 +749,7 @@ Transform:
   m_GameObject: {fileID: 903440095}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.66, y: 2.73, z: 0}
+  m_LocalPosition: {x: 11, y: 2.73, z: 0}
   m_LocalScale: {x: 0.7, y: 0.8, z: 0.7}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -772,6 +773,11 @@ MonoBehaviour:
   groundAcceleration: 15
   apexHeight: 4.5
   apexTime: 0.5
+  scoreText: {fileID: 0}
+  blockbreak: {fileID: 0}
+  questionbreak: {fileID: 0}
+  audioSource: {fileID: 0}
+  coinBlockPrefab: {fileID: 0}
 --- !u!1 &922125654
 GameObject:
   m_ObjectHideFlags: 0
@@ -1409,7 +1415,7 @@ Transform:
   m_GameObject: {fileID: 1462040807}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.51}
   m_LocalScale: {x: 6.44, y: 6.44, z: 6.44}
   m_ConstrainProportionsScale: 1
   m_Children:

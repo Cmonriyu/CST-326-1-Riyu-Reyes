@@ -39,6 +39,10 @@ public class LevelParser : MonoBehaviour
     public GameObject brickPrefab;
     public GameObject questionBoxPrefab;
     public GameObject strongPrefab;
+    public GameObject castlePrefab;
+    public GameObject goalPrefab;
+    public GameObject enemyPrefab;
+    public GameObject pipePrefab;
 
     void Start()
     {
@@ -107,6 +111,36 @@ public class LevelParser : MonoBehaviour
     
                 }
                 
+                if (currentChar == 'c')
+                {
+                    Vector3 newPosition = new Vector3(columnIndex + 0.5f, row + 0.5f, .9f);
+                    Transform castleInstance = Instantiate(castlePrefab,levelRoot).transform;
+                    castleInstance.position = newPosition;
+    
+                }
+
+                if (currentChar == 'g')
+                {
+                    Vector3 newPosition = new Vector3(columnIndex + 0.5f, row + 0.5f, .9f);
+                    Transform goalInstance = Instantiate(goalPrefab,levelRoot).transform;
+                    goalInstance.position = newPosition;
+    
+                }
+
+                if (currentChar == 'e')
+                {
+                    Vector3 newPosition = new Vector3(columnIndex + 0.5f, row + 0.5f, 0f);
+                    Transform enemyInstance = Instantiate(enemyPrefab,levelRoot).transform;
+                    enemyInstance.position = newPosition;
+    
+                }
+                if (currentChar == 'p')
+                {
+                    Vector3 newPosition = new Vector3(columnIndex + 0.5f, row + 0.5f, 0f);
+                    Transform pipeInstance = Instantiate(pipePrefab,levelRoot).transform;
+                    pipeInstance.position = newPosition;
+    
+                }
             }
 
             row++;
