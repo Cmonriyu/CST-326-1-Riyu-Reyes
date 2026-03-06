@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: a1a53a2b9fc1e77459fc05f632ed4737
+  productGUID: 5b13fdb229ee66d459fd141207db3470
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Platformer Part 1
+  productName: Space Invaders
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -524,10 +524,7 @@ PlayerSettings:
       m_Height: 720
       m_Kind: 1
       m_SubKind: 
-  m_BuildTargetBatching:
-  - m_BuildTarget: Standalone
-    m_StaticBatching: 1
-    m_DynamicBatching: 0
+  m_BuildTargetBatching: []
   m_BuildTargetShaderSettings: []
   m_BuildTargetGraphicsJobs: []
   m_BuildTargetGraphicsJobMode: []
@@ -849,14 +846,14 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Platformer Part 1
+  metroPackageName: Space Invaders
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Platformer Part 1
+  metroApplicationDescription: Space Invaders
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -925,12 +922,12 @@ PlayerSettings:
   qnxGraphicConfPath: 
   apiCompatibilityLevel: 6
   captureStartupLogs: {}
-  activeInputHandler: 2
+  activeInputHandler: 1
   windowsGamepadBackendHint: 0
-  cloudProjectId: ef41529c-e4f6-48ee-b6c2-a9608f1e74c7
+  cloudProjectId: ff4ea940-b5b7-4fb6-afcd-07f3cdf2933b
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Platformer Part 1
+  projectName: Space Invaders
   organizationId: cmonriyu
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
