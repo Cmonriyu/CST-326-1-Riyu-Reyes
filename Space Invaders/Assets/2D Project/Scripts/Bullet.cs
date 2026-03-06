@@ -4,6 +4,7 @@
 public class Bullet : MonoBehaviour
 {
     public float speed = 5;
+    
 
     void Start()
     {
@@ -11,3 +12,4 @@ public class Bullet : MonoBehaviour
         Debug.Log("Wwweeeeee");
     }
 }
+

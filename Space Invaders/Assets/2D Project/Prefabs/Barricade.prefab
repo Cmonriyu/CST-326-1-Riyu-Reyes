@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1389327057476361860}
   - component: {fileID: 5982879741523618876}
-  - component: {fileID: 3711543748983055914}
   - component: {fileID: 7975971234758316786}
   - component: {fileID: 8775894784631820650}
+  - component: {fileID: -696490040703871234}
   m_Layer: 0
   m_Name: Barricade
   m_TagString: Untagged
@@ -73,7 +73,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.22, y: 0.17}
+    oldSize: {x: 0.44, y: 0.32}
     newSize: {x: 2.56, y: 2.56}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -81,18 +81,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.2, y: 0.2}
   m_EdgeRadius: 0
---- !u!114 &3711543748983055914
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4408171774077197580}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 796aad014e2107342a60ed88af81c745, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &7975971234758316786
 SpriteRenderer:
   serializedVersion: 2
@@ -142,7 +130,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -263765993, guid: 83e522a58b9b5a342b00d90b30beae36, type: 3}
+  m_Sprite: {fileID: -899749161, guid: 83e522a58b9b5a342b00d90b30beae36, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -174,3 +162,15 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-696490040703871234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4408171774077197580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 092ab5e4540c49d40ab20997a9dac238, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Barricade

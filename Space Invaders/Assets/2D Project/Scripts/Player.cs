@@ -6,6 +6,8 @@ public class Player : MonoBehaviour
     public GameObject bulletPrefab;
     public Transform shootOffsetTransform;
     public Transform myTransform;
+    public float guntime = 0f;
+    public float gunint = .5f;
 
     void Start()
     {
@@ -14,26 +16,43 @@ public class Player : MonoBehaviour
     
     void Update()
     {
-        if (transform.childCount > 1)
+        guntime += Time.deltaTime;
+        if (guntime >= gunint)
         {
-            if (Keyboard.current != null && Keyboard.current.spaceKey.wasPressedThisFrame)
+            if (transform.childCount == 1)
             {
-                GameObject shot = Instantiate(bulletPrefab, shootOffsetTransform.position, Quaternion.identity);
-                Debug.Log("Bang!");
-                Destroy(shot,3f);
+                if (Keyboard.current != null && Keyboard.current.spaceKey.wasPressedThisFrame)
+                {
+                    GameObject shot = Instantiate(bulletPrefab, shootOffsetTransform.position, Quaternion.identity);
+                    Debug.Log("Bang!"); 
+                    Destroy(shot,2f);
+                    guntime = 0f;
+                }
             }
         }
+        
 
         
 
         if (Keyboard.current.leftArrowKey.isPressed)
         {
-            myTransform.position += Vector3.left * 3f * Time.deltaTime;
+            myTransform.position += Vector3.left * 4f * Time.deltaTime;
         }
 
         if (Keyboard.current.rightArrowKey.isPressed)
         {
-            myTransform.position += Vector3.right * 3f * Time.deltaTime;
+            myTransform.position += Vector3.right * 4f * Time.deltaTime;
         }
     }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("EnemyBullet"))
+        {
+            Destroy(collision.gameObject); 
+            Destroy(gameObject);    
+            Debug.Log("Player Dead Game Over");
+        }
+    }
+
 }

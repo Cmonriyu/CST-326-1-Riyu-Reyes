@@ -10,12 +10,12 @@ GameObject:
   m_Component:
   - component: {fileID: 3134989986518430679}
   - component: {fileID: 6927209764192379487}
-  - component: {fileID: 4155800487423101615}
   - component: {fileID: 1245813436875883476}
   - component: {fileID: 4244212809108338257}
-  m_Layer: 0
+  - component: {fileID: 8552177560014422568}
+  m_Layer: 7
   m_Name: Enemy3
-  m_TagString: Untagged
+  m_TagString: Enemy3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81,18 +81,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.25, y: 0.18}
   m_EdgeRadius: 0
---- !u!114 &4155800487423101615
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4614253100759396949}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 796aad014e2107342a60ed88af81c745, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1245813436875883476
 SpriteRenderer:
   serializedVersion: 2
@@ -174,3 +162,16 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8552177560014422568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4614253100759396949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad0b87cc1aecce847bee49a5a6b86860, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Enemy3
+  enemyBulletPrefab: {fileID: 2457785739244962049, guid: 4daeda3750cc3584a935ee7bc831808b, type: 3}

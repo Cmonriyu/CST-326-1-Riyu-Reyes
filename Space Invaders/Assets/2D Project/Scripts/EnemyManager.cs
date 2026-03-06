@@ -11,6 +11,9 @@ public class EnemyManager : MonoBehaviour
     private float movetime = 0f;
     public float moveint = 1f;
     public float movedist = .2f;
+    public float Enemy4time = 0f;
+    public float Enemy4int = 30f;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -20,6 +23,7 @@ public class EnemyManager : MonoBehaviour
 
     // Update is called once per frame
     void Update()
+
     {
         if (transform.childCount == 0)
         {
@@ -28,20 +32,29 @@ public class EnemyManager : MonoBehaviour
 
         movetime += Time.deltaTime;
 
-    if (movetime >= moveint)
-    {
-        MoveFormation();
-        movetime = 0f;
-    }
+        if (movetime >= moveint)
+        {
+            MoveFormation();
+            movetime = 0f;
+        }
+
+        Enemy4time += Time.deltaTime;
+
+        if (Enemy4time >= Enemy4int)
+        {
+            Instantiate(Enemy4, new Vector3(-10f, 4.5f, 0f), Quaternion.identity);
+            Enemy4time = 0f;
+        }
 
     }
+
 
     void MoveFormation()
 {   
     if (transform.position.x >= -2f || transform.position.x <= -8f)
         {
             right = !right;
-            transform.position += Vector3.down * movedist;
+            transform.position += Vector3.down * .1f;
         }
     if (right)
     {

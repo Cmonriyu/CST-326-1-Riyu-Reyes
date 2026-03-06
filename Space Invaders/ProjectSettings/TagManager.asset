@@ -8,6 +8,9 @@ TagManager:
   - Enemy2
   - Enemy3
   - Enemy4
+  - Barricade
+  - EnemyBullet
+  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -16,8 +19,8 @@ TagManager:
   - Water
   - UI
   - Bullet
-  - 
-  - 
+  - Enemy
+  - EnemyBullet
   - 
   - 
   - 
