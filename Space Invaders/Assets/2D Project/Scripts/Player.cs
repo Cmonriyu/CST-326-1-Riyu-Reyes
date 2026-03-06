@@ -5,6 +5,7 @@ public class Player : MonoBehaviour
 {
     public GameObject bulletPrefab;
     public Transform shootOffsetTransform;
+    public Transform myTransform;
 
     void Start()
     {
@@ -13,16 +14,26 @@ public class Player : MonoBehaviour
     
     void Update()
     {
-        if (Keyboard.current != null && Keyboard.current.spaceKey.wasPressedThisFrame)
+        if (transform.childCount > 1)
         {
-            GameObject shot = Instantiate(bulletPrefab, shootOffsetTransform.position, Quaternion.identity);
-            Debug.Log("Bang!");
+            if (Keyboard.current != null && Keyboard.current.spaceKey.wasPressedThisFrame)
+            {
+                GameObject shot = Instantiate(bulletPrefab, shootOffsetTransform.position, Quaternion.identity);
+                Debug.Log("Bang!");
+                Destroy(shot,3f);
+            }
+        }
 
-            // todo - destroy the bullet after 3 seconds
+        
 
-            Destroy(shot,3f);
-            // todo - trigger shoot animation
+        if (Keyboard.current.leftArrowKey.isPressed)
+        {
+            myTransform.position += Vector3.left * 3f * Time.deltaTime;
+        }
 
+        if (Keyboard.current.rightArrowKey.isPressed)
+        {
+            myTransform.position += Vector3.right * 3f * Time.deltaTime;
         }
     }
 }
